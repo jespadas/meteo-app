@@ -11,7 +11,6 @@ require('./index.css');
 async function fetchWeather() {
   const data = await weather.getWeather();
   ui.render(data);
-  console.log(data);
 }
 
 document.getElementById('w-change-btn').addEventListener('click', (e) => {
