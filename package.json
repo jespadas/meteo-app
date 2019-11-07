@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
-    "dev": "webpack-dev-server -d"
+    "dev": "webpack-dev-server -d",
+    "deploy": "npm run build && git subtree push – prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "Julio Espadas <contact@julioespadas.com>",
