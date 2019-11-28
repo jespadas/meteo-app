@@ -16,7 +16,7 @@ export class Store {
     if(localStorage.getItem('countryCode') === null) {
       this.countryCode = this.defaultCountry;
     } else {
-      localStorage.getItem('countryCode');
+      this.countryCode = localStorage.getItem('countryCode');
     }
     return {
       city: this.city,
