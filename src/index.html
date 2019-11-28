@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css">
-  <title>Meteo App</title>
-</head>
-<body>
-  
-  <div class="container p-4">
-    <div class="row">
-      <div class="col-md-4 mx-auto text-center">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link id="favicon" rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.css" />
+    <title>MeteoApp</title>
+  </head>
+  <body>
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-md-4 mx-auto text-center">
           <div class="card">
             <div class="card-body">
               <h1 id="weather-location" class="h3"></h1>
-              <img id="weather-flag">
-              <img id="weather-icon">
+              <img id="weather-flag" width="50px" height="50px" /><br /><br/>
+              <img id="weather-icon" /><br/><br/>
               <h3 id="weather-description" class="h4"></h3>
               <h3 id="weather-string"></h3>
               <ul class="list-group mt-3">
-                  <li id="weather-humidity" class="list-group-item"></li>
-                  <li id="weather-wind" class="list-group-item"></li>
+                  <li class="list-group-item">
+                    <img id="humidityImage" />
+                    <span id="weather-humidity"></span>
+                  </li>
+                  <li class="list-group-item">
+                    <img id="windImage" />
+                    <span id="weather-wind"></span>
+                  </li>
               </ul>
             </div>
           </div>
@@ -30,9 +40,20 @@
             <div class="card-body">
               <form id="w-form">
                 <div class="form-group">
-                  <input type="text" id="city" class="form-control" placeholder="City" autofocus><br/>
+                  <input
+                    type="text"
+                    id="city"
+                    class="form-control"
+                    placeholder="City"
+                    autofocus
+                  /><br />
                   <div class="form-group">
-                    <input type="text" id="countryCode" class="form-control" placeholder="Country Code">
+                    <input
+                      type="text"
+                      id="countryCode"
+                      class="form-control"
+                      placeholder="Country Code"
+                    />
                   </div>
                   <div class="form-group">
                     <button class="btn btn-dark btn-block" id="w-change-btn">
@@ -43,9 +64,8 @@
               </form>
             </div>
           </div>
+        </div>
       </div>
     </div>
-  </div>
-
-</body>
+  </body>
 </html>
