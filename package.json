@@ -20,7 +20,8 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0",
     "serialize-javascript": ">=2.1.1",
-    "minimist": ">=1.2.2"
+    "minimist": ">=1.2.2",
+    "kind-of": ">=6.0.3"
   },
   "devDependencies": {
     "file-loader": "^4.2.0",
