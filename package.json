@@ -25,6 +25,7 @@
     "kind-of": ">=6.0.3"
   },
   "devDependencies": {
+    "ssri": ">=8.0.1",
     "file-loader": "^4.2.0",
     "url-loader": "^2.2.0",
     "serialize-javascript": ">=3.1.0"
