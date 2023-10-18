@@ -13,7 +13,7 @@
   "author": "Julio Espadas <contact@julioespadas.com>",
   "license": "MIT",
   "dependencies": {
-    "css-loader": "^3.2.0",
+    "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
