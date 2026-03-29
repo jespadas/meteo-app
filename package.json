@@ -19,7 +19,7 @@
     "webpack": "^5.104.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.2.1",
-    "serialize-javascript": ">=7.0.3",
+    "serialize-javascript": ">=7.0.5",
     "minimist": ">=1.2.6",
     "kind-of": ">=6.0.3"
   },
@@ -28,6 +28,6 @@
     "ssri": ">=8.0.1",
     "file-loader": "^4.2.0",
     "url-loader": "^2.2.0",
-    "serialize-javascript": ">=7.0.3"
+    "serialize-javascript": ">=7.0.5"
   }
 }
